@@ -306,10 +306,9 @@ euro_scores <- rbind(euro_scores, check_rating("Spain","Czechia", 1, 0))
 euro_scores <- rbind(euro_scores, check_rating("Ireland","Sweden", 1, 1))
 euro_scores <- rbind(euro_scores, check_rating("Belgium","Italy", 0, 2))
 euro_scores <- rbind(euro_scores, check_rating("Austria","Hungary", 0, 2))
+euro_scores <- rbind(euro_scores, check_rating("Portugal","Iceland", 1, 1))
 
 # rozgrywki do tej pory
-
-#euro_scores <- rbind(euro_scores, check_rating("Portugal","Iceland", 0, 0))
 
 # II tura rozgrywek grupowych
 #euro_scores <- rbind(euro_scores, check_rating("Russia","Slovakia", 0, 0))
